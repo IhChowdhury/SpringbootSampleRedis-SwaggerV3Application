@@ -1,7 +1,7 @@
 # SpringbootSampleRedis-SwaggerV3Application
 A sample spring boot application using Redis and Swagger v3
 
-## Dependies Uses
+## Dependencies Used
 
 ###### For Redis
         <dependency>
@@ -30,3 +30,13 @@ To run this application follow this steps
     * To save data send a post request to *http://localhost:3232/api/product*
     * To see saved data send get request to *http://localhost:3232/api/product*
   - Now close the application and send the get request again to see saved data available or not. You can see previous saved  data because it was stored in redis.
+
+
+I have used spring boot caching to load data first. You can notice for the first time it will take time to load data. but in the second time it will load data faster than first time.
+
+
+## To learn more about redis & swagger you can visit this links:
+  - https://redis.io/documentation
+  - https://springdoc.org/
+  - https://www.baeldung.com/spring-rest-openapi-documentation
+
